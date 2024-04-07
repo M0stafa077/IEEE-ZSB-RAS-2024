@@ -37,7 +37,7 @@ int main()
     *                ---------------
     *               |      ...      |
     *                ---------------
-    *               |   ptr = 1000  | e.x. @1018 -- as ptr is stores in 8 bytes (On my machine)
+    *               |   ptr = 1000  | e.x. @1020 -- as ptr is stored in 8 bytes (On my machine)
     *                ---------------  
     *               |    d = 4      | e.x. @1012
     *                ---------------  
@@ -54,7 +54,7 @@ int main()
     *                ---------------
     *               |      ...      |
     *                ---------------
-    *               |   ptr = 1004  | e.x. @1018 -- as ptr is stores in 8 bytes (On my machine)
+    *               |   ptr = 1004  | e.x. @1020 -- as ptr is stored in 8 bytes (On my machine)
     *                ---------------  
     *               |    d = 4      | e.x. @1012
     *                ---------------  
