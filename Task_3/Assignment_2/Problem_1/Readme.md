@@ -2,7 +2,7 @@
 
 ### Note
 
-    To run this project : <font color="green">[You need to install make first]</font>
+    To run this project : [You need to install make first]
 
         - Run a new terminal in the main directory.
         - Type 'make'.
