@@ -2,7 +2,7 @@
 
 ### Note
 
-    To run this project :
+    To run this project : [You need to install make first]
         - Run a new terminal in the main directory.
         - Type 'make'.
         - Type '.\calculator.exe'.
