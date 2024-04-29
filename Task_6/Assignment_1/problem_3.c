@@ -41,11 +41,11 @@ int main()
     printf("You entered: %s\n", string);
 
     /* Calculate the frequency of the most repeated char */
-    for (l_counter = 0; l_counter < strlen(string); ++l_counter) 
+    for (l_counter = 0; l_counter < strlen(string); ++l_counter)
         { freq[string[l_counter]]++; }
 
     for (l_counter = 0; l_counter < MAX_INDEX; l_counter++)
-        if (freq[l_counter] > max) 
+        if (freq[l_counter] > max)
         {
             max = freq[l_counter];
             most_repeated_char = l_counter;
