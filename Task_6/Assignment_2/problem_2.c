@@ -33,21 +33,20 @@ int main()
         for (uint8_t counter = 0; counter < strlen(string); ++counter) 
         {
             uint8_t unique_flag = UNIQUE;
-            for (int j = 0; j < counter; j++) 
+            for (int j = 0; j < counter; j++)
             {
-                if (string[counter] == string[j]) 
+                if (string[counter] == string[j])
                 {
                     unique_flag = NOT_UNIQUE;
                     break;
                 }
             }
-            
-            if (unique_flag) 
+
+            if (unique_flag)
             {
                 printf("%c", string[counter]);
             }
         }
-        
         printf("\n=============================== \n");
     }
     return 0;
