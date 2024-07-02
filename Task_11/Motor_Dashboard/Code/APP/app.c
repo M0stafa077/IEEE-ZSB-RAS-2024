@@ -95,38 +95,23 @@ int main(void)
 		state = BUTTON_RELEASED;
 		ret |= button_read_state(&forward_button, &state);
 		if(BUTTON_PRESSED == state)
-		{
-			ret |= move_forward();
-			state = BUTTON_RELEASED;
-		}
+			{ ret |= move_forward(); }
 		
 		ret |= button_read_state(&right_button, &state);
 		if(BUTTON_PRESSED == state)
-		{
-			ret |= move_right();
-			state = BUTTON_RELEASED;
-		}
+			{ ret |= move_right(); }
 		
 		ret |= button_read_state(&backward_button, &state);
 		if(BUTTON_PRESSED == state)
-		{
-			ret |= move_backward();
-			state = BUTTON_RELEASED;
-		}
+			{ ret |= move_backward(); }
 		
 		ret |= button_read_state(&left_button, &state);
 		if(BUTTON_PRESSED == state)
-		{
-			ret |= move_left();
-			state = BUTTON_RELEASED;
-		}
+			{ ret |= move_left(); }
 		
 		ret |= button_read_state(&stop_button, &state);
 		if(BUTTON_PRESSED == state)
-		{
-			ret |= stop();
-			state = BUTTON_RELEASED;
-		}
+			{ ret |= stop(); }
 		/* For debugging purposes */
 		if(E_NOT_OK == ret)
 			{ while(1); }
